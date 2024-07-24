@@ -28,7 +28,7 @@ ax.plot(dates, avgs, color='black', alpha=0.5)
 ax.set_title("Daily Avg Temperatures of Japan, 2024", fontsize=24)
 ax.set_xlabel('', fontsize=16)
 fig.autofmt_xdate()
-ax.set_ylabel("Temperature (F)", fontsize=16)
+ax.set_ylabel("Temperature (Celcius)", fontsize=16)
 ax.tick_params(labelsize=16)
 
 plt.show()
